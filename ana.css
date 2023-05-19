@@ -53,6 +53,10 @@
     height: 400px;
     width: 400px;
   }
+  table {
+    margin: 0 auto;
+  }
+  
   .home, .childhood, .prof, .art {
     margin: 10px;
 }
