@@ -112,7 +112,7 @@ input[type=checkbox] {
 
   @media (max-width: 768px) {
     .anameme {
-      max-width: 480px;
+      width: 250;
     }
     .menu {
       display: none;
