@@ -1,7 +1,6 @@
 
 /* UTILITIES */
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -16,7 +15,8 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding-right: 25%;
+  padding-left: 25%;
   background-color: rgb(206, 169, 255);
   color: #fff;
 }
@@ -27,6 +27,7 @@ li {
 /* NAVBAR MENU */
 .menu {
   display: flex;
+  justify-content: center;
   gap: 1em;
   font-size: 30px;
 }
@@ -101,7 +102,7 @@ input[type=checkbox] {
 
   table img {
     width:300px;
-    height:350px
+    height:350px;
   }
   table {
     margin: 0 auto;
@@ -110,10 +111,13 @@ input[type=checkbox] {
     list-style-type: none
   }
 
-  @media (max-width: 768px) {
-    .anameme {
-      width: 250;
+  @media (max-width: 500px) {
+    .anameme iframe {
+      width: 200px;
     }
+  }
+
+  @media (max-width: 768px) {
     .menu {
       display: none;
       position: relative;
